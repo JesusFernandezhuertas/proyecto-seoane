@@ -7,9 +7,9 @@
               </v-toolbar>
               <v-card-text>
                 <v-form>
-                  <v-text-field label="Username" name="username" type="text" color="info"></v-text-field>
+                  <v-text-field id="username" label="Username" name="username" type="text" color="info"></v-text-field>
                   <v-text-field id="password" label="Password" name="password" type="password" color="info"></v-text-field>
-                  <v-btn block outlined color="info">Iniciar Sesión</v-btn>
+                  <v-btn block color="info">Iniciar Sesión</v-btn>
                 </v-form>
               </v-card-text>
             </v-card>
